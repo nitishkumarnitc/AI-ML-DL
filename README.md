@@ -1,6 +1,6 @@
-# 🎓 IIT Kanpur AI-ML Professional Certificate Program
+# 🎓 AI-ML Complete Professional Program
 
-> **Complete End-to-End Artificial Intelligence & Machine Learning Curriculum**  
+> **Complete End-to-End Artificial Intelligence & Machine Learning Curriculum**
 > From Foundations to Production-Ready Deep Learning Systems
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -12,7 +12,7 @@
 
 ## 📚 **Course Overview**
 
-This repository contains comprehensive **instructor slides and enhanced Jupyter notebooks** from the IIT Kanpur AI-ML Professional Certificate Program. The curriculum covers three major modules:
+This repository contains comprehensive **instructor slides and enhanced Jupyter notebooks** for a complete AI-ML professional program. The curriculum covers three major modules:
 
 1. **Module 0:** Introduction & Data Science Foundations
 2. **Module 1:** Machine Learning
@@ -39,7 +39,7 @@ All **31 Deep Learning notebooks** have been enhanced with:
 ## 📂 **Repository Structure**
 
 ```
-IITK-AI-ML/
+AI-ML/
 │
 ├── 0.Intro.Instructor_Slide_and_Notebooks/      # Foundations
 │   ├── Lesson_03: NumPy
@@ -274,7 +274,7 @@ Master state-of-the-art deep learning from foundations to production deployment.
 ### **1. Clone the Repository:**
 ```bash
 git clone https://github.com/nitishkumarnitc/AI-ML-DL.git
-cd AI-ML-DL
+cd AI-ML
 ```
 
 ### **2. Set Up Environment:**
@@ -331,7 +331,7 @@ jupyter notebook
 
 ## 📝 **License**
 
-This repository is for educational purposes. All content is from the IIT Kanpur AI-ML Professional Certificate Program.
+This repository is for educational purposes. Content curated from professional AI-ML curriculum.
 
 ---
 
@@ -344,14 +344,14 @@ This is an educational repository. For questions or suggestions, please open an 
 ## 📞 **Contact**
 
 **Repository Maintainer:** Nitish Kumar
-**Program:** IIT Kanpur AI-ML Professional Certificate
+**Program:** AI-ML Professional Certificate
 
 ---
 
 ## 🎊 **Acknowledgments**
 
-- **IIT Kanpur** for the world-class curriculum
-- **Instructors** for comprehensive content
+- **Curriculum Creators** for world-class content
+- **Instructors** for comprehensive materials
 - **Deep Learning Community** for open-source tools
 
 ---

@@ -221,12 +221,7 @@ Master state-of-the-art deep learning from foundations to production deployment.
 - Research Labs (DeepMind, FAIR, Google Brain)
 - Any tech company doing AI/ML
 
-### **Salary Expectations:**
-- Entry-level AI Engineer: $100k-130k
-- Mid-level ML Engineer: $130k-180k
-- Senior ML Engineer: $180k-250k+
-
-**With this training: Mid to Senior level ready!** 💰
+**With this training: Industry-ready expertise!** 🚀
 
 ---
 

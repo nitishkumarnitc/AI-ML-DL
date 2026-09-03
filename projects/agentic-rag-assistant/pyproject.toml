@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-rag-assistant"
+version = "0.1.0"
+description = "Agentic RAG assistant: a LangGraph agent with MCP tools, retrieval, guardrails, and a CI eval gate."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Nitish Kumar" }]
+keywords = ["langgraph", "rag", "mcp", "llm", "agents", "evals", "llmops"]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "langgraph>=0.2",
+    "langchain-core>=0.3",
+    "langchain-anthropic>=0.2",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "chromadb>=0.5",
+    "mcp>=1.0",
+]
+
+[project.optional-dependencies]
+# Enables the MCP-backed tool path in src/agent/mcp_client.py.
+mcp-adapters = ["langchain-mcp-adapters>=0.1"]
+# Optional native tracing export; the built-in tracer needs no extra deps.
+tracing = ["langsmith>=0.1"]
+# HTTP serving surface (src/api.py) — FastAPI + uvicorn.
+api = ["fastapi>=0.110", "uvicorn[standard]>=0.29"]
+dev = ["pytest>=8", "ruff>=0.6", "httpx>=0.27"]
+
+[project.scripts]
+agentic-rag = "src.app:main"
+
+[project.urls]
+Repository = "https://github.com/nitishkumar/agentic-rag-assistant"
+
+[tool.setuptools]
+packages = ["src", "src.agent", "src.mcp_server"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

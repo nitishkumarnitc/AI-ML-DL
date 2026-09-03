@@ -1,0 +1,4 @@
+# LoRA / QLoRA fine-tuning natively on Apple Silicon (M1/M2/M3/M4) — no CUDA required
+mlx-lm>=0.20
+datasets>=2.20
+huggingface_hub>=0.25

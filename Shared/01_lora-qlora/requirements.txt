@@ -1,0 +1,11 @@
+# QLoRA / LoRA fine-tuning on a CUDA GPU (Google Colab, or any machine with an NVIDIA GPU)
+# Tested against the current (2026) Hugging Face stack: trl >= 1.9, transformers >= 5.x
+torch>=2.3
+transformers>=4.46
+datasets>=2.20
+accelerate>=1.0
+peft>=0.13
+trl>=1.9
+bitsandbytes>=0.44
+huggingface_hub>=0.25
+sentencepiece>=0.2

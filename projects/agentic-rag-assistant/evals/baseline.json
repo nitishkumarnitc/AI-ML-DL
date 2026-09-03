@@ -1,0 +1,4 @@
+{
+  "mean_score": 0.7,
+  "_comment": "Quality floor for the CI eval gate. run_evals.py fails the build if the dataset mean drops below (mean_score - EPSILON). Bump this only on a verified improvement."
+}
